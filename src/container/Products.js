@@ -23,7 +23,7 @@ function Products() {
                     <h1>${product.price}</h1>
                   </div>
                   <div>
-                    <button className="font-bold ring-2 rounded-sm bg-purple-600 p-2" onClick={() => dispatch({type : 'Add', payload : product})}>Add to Cart</button>
+                    <button className="font-bold ring-2 rounded-sm bg-purple-600 p-2 active:bg-purple-400" onClick={() => dispatch({type : 'Add', payload : product})}>Add to Cart</button>
                   </div>
                 </div>
               );
